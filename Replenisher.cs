@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using TShockAPI;
@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 
 namespace Replenisher
 {
-    [ApiVersion(1, 22)]
+    [ApiVersion(2, 1)]
     public class Replenisher : TerrariaPlugin
     {
         private static readonly int TIMEOUT = 100000;
@@ -34,7 +34,7 @@ namespace Replenisher
         }
         public override Version Version
         {
-            get { return new Version("1.1.5"); }
+            get { return new Version("1.2.0"); }
         }
         public override string Name
         {
