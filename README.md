@@ -1,5 +1,5 @@
-# Replenisher (outdated)
-initial commit
+# Replenisher
+Updated to latest ApiVersion
 
 ## Overview
 Replenish your world resources!
